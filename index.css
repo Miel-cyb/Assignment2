@@ -1,0 +1,290 @@
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+ header{
+    display: flex;
+    margin: 25px;
+}
+
+#logo{
+    width: 100px;
+
+}
+
+.search-icon,#cart,#globe{
+    width: 20px;
+}
+ nav{
+    display: flex;
+    gap: 20px;
+ }
+ input{
+    border: 1px solid black;
+    width: 500px;
+padding: 16px;
+border-radius: 40px;
+font-size: 14px;
+padding-left: 50px;
+background-color: rgb(244, 246, 247);
+}
+.search-icon{
+    position: absolute;
+margin: 15px;
+}
+header a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+nav a button{
+    padding: 8px;
+    background-color: white;
+ font-size: 15px;
+ border: 1px solid black;
+ margin-top: -10px;
+}
+
+#Signup-btn{
+    background-color: black;
+    color: white;
+    width: 90px;
+}
+#cart{
+    width: 20px;
+}
+header a:hover,header a img #cart:hover{
+color: blueviolet;
+}
+.image img{
+    width: 100%;
+}
+.image div{
+    border-style: none;
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    margin: 50px;
+    background: whitesmoke;
+    font-size: 20px;
+}
+section{
+    font-size: 20px;
+}
+section ul b,ul li, section ul li a{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+section ul b #python, ul li a:hover{
+    color: black;
+}
+.explore{
+    padding: 20px;
+    background: white;
+}
+.second-section{
+    margin: 5px;
+    border:1px solid black;
+    padding: 10px;
+    width: 95%;
+}
+h4{
+    font-size: 15px;
+}
+.second-section ul{
+    display: flex;
+    gap: 10px;
+    margin-left: -20px;
+}
+.second-section ul li .angle-bracket{
+   clip-path: circle();
+   font-size: 40px;
+   color: white;
+   background-color: black;
+   padding: 20px;
+   position: absolute;
+margin-left: 200px;
+}
+div img.stars{
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+}
+.rating{
+    display: flex;
+   margin-top: -10px;
+}
+.name{
+    font-size: 20px;
+}
+.digit b{
+    color: rgb(192, 142, 14);
+}
+.info{
+    line-height:10px;
+    margin-top: -15px;
+}
+#price{
+    font-size: 20px;
+    margin-top: -3px;
+}
+.amount{
+    text-decoration: line-through;
+    text-decoration-color: rgb(51, 50, 50);
+}
+.symbols{
+    background-color: whitesmoke;
+}
+.symbols div{
+    display: inline-flex;
+    padding: 20px;
+}
+.symbols div img{
+    width: 40px;
+    clip-path: circle();
+    font-size: 5px;
+}
+.student-views div.students{
+    display: flex;
+    gap: 10px;
+}
+.student-views div.students li, .student-views h3{
+    list-style-type: none;
+    margin: 10px;
+}
+.items{
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+}
+.items li{
+    list-style-type: none;
+   margin-left: 100px;
+}
+.tcs{
+    width: 100px;
+}
+.category{
+    display: flex;
+    margin: 10px;
+    gap: 150px;
+}
+.topics{
+background-color: whitesmoke;
+padding: 5px;
+}
+.category a{
+    font-size: 20px;
+    color: blueviolet;
+  font-weight:bold;
+}
+.instructor{
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+    margin-left: 200px;
+}
+.instructor div{
+    margin: 80px;
+    font-size: 20px;
+}
+.instructor div button{
+    padding: 15px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+.business,.business span{
+    display: flex;
+}
+.business {
+    gap: 100px;
+}
+.business div img{
+   width: 100px;
+   height: 8vh;
+   margin-top: 40px;
+}
+.business span p{
+    font-size: 30px;
+    color: blueviolet;
+    margin-top: 40px;
+}
+.business p{
+    font-size: 20px;
+}
+.business div{
+    margin-left: 100px;
+}
+.business div button{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}
+.find{
+    display: flex;
+    gap: 100px;
+    margin: 200px;
+}
+.find div{
+    font-size: 25px;
+}
+.find div button{
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer .list{
+    display: flex;
+    gap: 100px;
+}
+footer .list div a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+footer .list div a:hover{
+    text-decoration: underline;
+}
+footer .list button{
+  font-size: 15px;
+  display: flex;
+ width: 150px;
+ height: 60px;
+ margin-left: 200px;
+ background-color: transparent;
+ color: white;
+ border: 1px solid white;
+ gap: 10px;
+}
+footer .list button:hover,.instructor div button:hover,#Signup-btn:hover{
+    background-color: rgb(87, 87, 87);
+}
+footer .list button img{
+    width: 25px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+footer .bottom p{
+    color: white;
+    float: right;
+}
+footer .bottom img{
+    width: 100px;
+}
+footer .bottom{
+    margin-top: 30px;
+}
